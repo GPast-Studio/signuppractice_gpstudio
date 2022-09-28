@@ -6,6 +6,8 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="top"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -25,14 +27,10 @@
     </LinearLayout>
 
 
-
-
-
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:text="아이디" />
 
 
